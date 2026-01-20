@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1.a {
+    text-align: center;
+    font-size: 70px;
+}
+
+div.space {
+    height: 100px;
+}
+
+ul.Topics {
+    font-size: 20px;
+}
+
