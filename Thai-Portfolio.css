@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(209, 209, 209);
 }
 
 h1.a {
@@ -19,3 +19,36 @@ ul.Topics {
     font-size: 20px;
 }
 
+div.bigGap {
+    height: 100%;
+}
+
+button {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 10px;
+    width: 10px;
+    border-style: solid;
+    border-color: rgb(129, 129, 129);
+    border-width: 2px;
+    border-radius: 2px;
+    background-color: rgb(215, 215, 215)
+}
+
+.link1 {
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: rgb(129, 129, 129);
+    background-color: rgb(215, 215, 215);
+}
+
+p {
+    font-style: italic;
+}
