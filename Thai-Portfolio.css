@@ -52,3 +52,9 @@ button {
 p {
     font-style: italic;
 }
+
+nav {
+    text-decoration: none;
+    text-color: black;
+    background-color: blue;
+}
