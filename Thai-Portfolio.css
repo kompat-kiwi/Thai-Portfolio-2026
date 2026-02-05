@@ -36,7 +36,6 @@ button {
 }
 
 .link1 {
-    text-decoration: none;
     border-style: solid;
     border-width: 2px;
     border-radius: 20px;
@@ -51,4 +50,9 @@ button {
 
 p {
     font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
 }
