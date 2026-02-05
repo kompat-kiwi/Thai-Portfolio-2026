@@ -52,7 +52,6 @@ p {
     font-style: italic;
 }
 
-a {
+.noUnderLine {
     text-decoration: none;
-    color: black; 
 }
