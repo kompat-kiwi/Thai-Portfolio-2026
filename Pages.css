@@ -1,10 +1,13 @@
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(to bottom right, #AEBAF8, #9600FF );
 }
 
 .title {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: bold;
 }
 
 .bigbutton {
@@ -55,4 +58,24 @@ a {
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.text {
+    font-family: Inter, Roboto, Open Sans, and Poppins;
+    font-size: 50px;
+}
+
+@keyframes moveText{
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.textanimate {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: moveText linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
 }
