@@ -137,8 +137,3 @@ a {
     -webkit-text-stroke: 1px white;
     font-weight: bold;
 }
-
-.corner {
-    width: 400px;
-    transform: rotate(270deg);
-}
