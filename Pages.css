@@ -53,12 +53,12 @@ a {
 
 .header {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .text {
@@ -137,3 +137,9 @@ a {
     -webkit-text-stroke: 1px white;
     font-weight: bold;
 }
+
+ul {
+    font-weight: bold;
+    font-size: 30px;
+}
+
